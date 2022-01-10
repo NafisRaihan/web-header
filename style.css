@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 170px;
+    border: #404040;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #404040;
+    background-color: white;
+    border: lightgray 1px solid;
+    padding: 15px 11px;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #f23534;
+    border: lightgray 1px solid;
+    padding: 15px 11px;
+
+}
+div{
+    height: 47.5px;
+    width: 100%;
+    border:1px solid lightgray;
+    margin-top: 2px;
+}
+nav li :last-child{
+    border-right: none;
+}
+.search-box-p{
+    text-align: center;
+    height: 20px;
+    padding-left: 10px;
+}
+.search-box{
+    height: 38px;
+    position: relative;
+    top: -30px;
+    width: 700px;
+    border-bottom: 2px solid #f29434;
+    border-top: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    padding-left: 10px;
+
+}
+.fas{
+    height: 36px;
+    width:35.5px;
+    border: 1px solid #f29434;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:#f29434 ;
+    color: white;
+    position: relative;
+    bottom:34px;
+    font-size: 20px;
+}
+.logo{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.selected::selection {
+    color: white;
+    background-color:#f23534 ;
+}
